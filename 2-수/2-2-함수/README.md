@@ -7,44 +7,44 @@
   1. 첫 번째 집합의 **\*모든 원소에 대한 대응관계**가\* 존재
   2. 첫 번째 집합의 원소는 **_두 번째 집합의 한 원소에만 대응_**
 - 정의역, 공역, 치역의 개념
-  ![Untitled](image/Untitled.png)
   - 정의역(Domain): 함수에서 왼쪽에 위치한 첫 번째 집합 → 입력(Input)
   - 공역(Codomain): 함수에서 오른쪽에 위치한 두 번째 집합 → 출력(Output)
   - 치역(Range): 정의역에 대응되는 공역의 원소만 따로 모아놓은 부분집합(Subset)
+    ![Untitled](image/Untitled.png)
 - 전사함수(Surjection)
-  ![image 36.jpg](image/image_36.jpg)
   - 공역의 모든 요소가 정의역에 대응되는 함수
   - 공역과 치역이 동일한 함수
+    ![image 36.jpg](image/image_36.jpg)
 - 단사함수(Injection)
-  ![image 37.jpg](image/image_37.jpg)
   - 정의역과 공역의 요소가 일대일로 대응되는 함수
+    ![image 37.jpg](image/image_37.jpg)
 - 전단사함수(Bijection)
-  ![image 36 (1).jpg](<image/image_36_(1).jpg>)
   - 정의역과 공역의 모든 요소가 빠짐없이 일대일로 대응되는 함수
+    ![image 36 (1).jpg](<image/image_36_(1).jpg>)
 
 ## 2.2.2 합성함수
 
 - 함수의 합성 (Function composition)
-  ![image 36.jpg](image/image_36%201.jpg)
   - 2개의 함수를 연쇄적으로 이어서 하나의 함수를 만드는 연산
   - 중간에 위치한 집합 Y 를 생략하고 X 와 Z 의 직접적인 대응관계로 표현할 수 있음.
   - $g(f(x))$ 또는 $g∘f$ 로 표시할 수 있음. → 먼저 실행하는 합성함수 $f$가 오른쪽에 놓임
   - $(h ∘ (g ∘ f))(w)$ 와 $((h ∘ g) ∘ f)(w)$ 의 결과는 동일한 대응관계를 가짐 → 합성함수는 결합법칙이 성립함.
+    ![image 36.jpg](image/image_36%201.jpg)
 
 ## 2.2.3 항등함수와 역함수
 
 - 항등함수(Identity function)
-  ![Untitled](image/Untitled%201.png)
   - 정의역과 공역이 동일한 값으로 대응되는 함수
   - 항등함수 $id$ 에 대하여, $id ∘ f = f$ 이고, $f ∘ id = f$ 이므로, 항등함수는 어느 위치에 있든지 합성의 결과가 원함수와 동일한 대응관계를 나타냄.
+    ![Untitled](image/Untitled%201.png)
 - 역함수(Inverse function)
-  ![Untitled](image/Untitled%202.png)
   - 합성함수의 대응결과가 항등함수가 되도록 하는 함수. $f^-1$ 로 표현
   - 어떤 함수와 역함수를 합성한 결과는 언제나 항등함수가 됨.
   - 어떤 함수가 역함수를 가지려면 반드시 **전단사함수의 형태**가 되어야 함.
   - $f^-1 ∘ f = id$
   - $f ∘ f^-1 = id$
   - $(g ∘ f)^-1 = f^-1 ∘ g^-1$
+    ![Untitled](image/Untitled%202.png)
 
 ## 2.2.4 곱집합을 활용한 좌표 평면으로의 확장
 
